@@ -2,6 +2,8 @@
 
 # Set up autograder files
 
+mkdir /autograder/source/input
+
 cp /autograder/submission/* /autograder/source/input
 
 cd /autograder/source
