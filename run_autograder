@@ -6,4 +6,4 @@ cp /autograder/submission/* /autograder/source/input
 
 cd /autograder/source
 
-python3 run_tests.py
+python3.8 run_tests.py
