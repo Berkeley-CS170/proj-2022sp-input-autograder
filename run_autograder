@@ -4,8 +4,6 @@
 
 mkdir /autograder/source/input
 
-cp /autograder/submission/* /autograder/source/input
-
 cd /autograder/source
 
 python3.8 run_tests.py
