@@ -74,9 +74,11 @@ class Instance:
 
         if num_cities != len(cities):
             print("Number of cities indicated different from supplied: expected {0}, actual {1}.".format(num_cities, len(cities)))
+            return False
 
-        if len(set(cities)) == len(cities):
+        if len(set(cities)) != len(cities):
             print("Detected duplicative cities.")
+            return False
 
         for city in cities:
             if not (0 <= city.x < grid_side_length and 0 <= city.y < grid_side_length):
