@@ -4,7 +4,7 @@ import pathlib
 import gradescope_utils.autograder_utils.decorators
 
 SMALL_BOUNDS = {"N": (15, 25), "D": (30, 30), "Rs": (3, 3), "Rp": (8, 8)}
-MEDIUM_BOUNDS = {"N": (15, 25), "D": (50, 50), "Rs": (3, 3), "Rp": (10, 10)}
+MEDIUM_BOUNDS = {"N": (45, 55), "D": (50, 50), "Rs": (3, 3), "Rp": (10, 10)}
 LARGE_BOUNDS = {"N": (195, 205), "D": (100, 100), "Rs": (3, 3), "Rp": (14, 14)}
 
 class TestInput(unittest.TestCase):
